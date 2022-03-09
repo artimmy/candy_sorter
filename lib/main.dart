@@ -13,6 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       title: 'Candy Sorter',
+      debugShowCheckedModeBanner: false,
       home: SafeArea(
         child: GamePage(),
       ),
